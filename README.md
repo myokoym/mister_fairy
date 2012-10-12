@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'mister_fiary'
+    yousei_san = MisterFairy::Factory.create("ja")
+    p yousei_san.tweet  #=> "ふせいです？" (Random)
 
 ## Contributing
 
