@@ -2,9 +2,11 @@
 require 'mister_fairy'
 
 describe MisterFairy do
-  describe MisterFairy::Fairy do
-    it "is tweet" do
-      MisterFairy::Fairy.new.tweet.should =~ /[ぁ-ゔ]+です？/
+  describe MisterFairy::Factory do
+    context "ja" do
+      it "is tweet" do
+        MisterFairy::Factory.create("ja").tweet.should =~ /[ぁ-ゔ]+です？/
+      end
     end
   end
 end
