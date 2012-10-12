@@ -3,7 +3,7 @@ require 'mister_fairy'
 
 describe MisterFairy do
   describe MisterFairy::Factory do
-    context "ja" do
+    context MisterFairy::Japanese do
       it "is tweet" do
         MisterFairy::Factory.create("ja").tweet.should =~ /[ぁ-ゔ]+です？/
       end

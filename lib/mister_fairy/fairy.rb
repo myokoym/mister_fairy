@@ -1,1 +1,1 @@
-require 'mister_fairy/japanese_fairy'
+require 'mister_fairy/japanese'
