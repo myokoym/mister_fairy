@@ -1,6 +1,8 @@
 # MisterFairy
 
-TODO: Write a gem description
+a fairy entity
+
+妖精さんが実体化します？
 
 ## Installation
 

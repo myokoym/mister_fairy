@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = MisterFairy::VERSION
   gem.authors       = ["Masafumi Yokoyama"]
   gem.email         = ["myokoym@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{It is fairy. So cute.}
+  gem.summary       = %q{a fairy entity}
+  gem.homepage      = "https://github.com/myokoym/mister_fairy"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
